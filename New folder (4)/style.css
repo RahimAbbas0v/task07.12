@@ -1,0 +1,36 @@
+
+.navbar{
+    background-color: blanchedalmond;
+    justify-content: space-evenly;
+}
+.heading h1{
+    padding-left: 5rem;
+    font-size: 4rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+.basket i{
+    padding-right: 5rem;
+    font-size: 2.5rem;
+    color: green;
+}
+#owl-demo{
+    background-color: white;
+}
+#owl-demo .item{
+    margin: 3px;
+
+  }
+#owl-demo .item img{
+    display: block;
+    width: 50%;
+    height: auto;
+  }
+.row{
+    flex-wrap: wrap;
+    padding-top: 5rem;
+    padding-right: 15%;
+}
+.btn{
+    width: 10rem;
+}
