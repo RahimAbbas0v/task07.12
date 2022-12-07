@@ -1,0 +1,28 @@
+.row{
+    justify-content: center;
+    align-items: center;
+    padding-top: 8rem;
+}
+.card{
+    margin: 2rem;
+}
+.fa-solid{
+    font-size: 6rem;
+    color: red;
+}
+.basket{
+    background-color: burlywood;
+}
+.basket i{
+    padding-left: 48%;
+    padding-top: 2rem;
+    padding-bottom: 2REM;
+    font-size: 3rem;
+    color: black;
+}
+col{
+    box-sizing: border-box;
+    border: 1px solid black;
+    width: 200px;
+    height: 150px;
+}
