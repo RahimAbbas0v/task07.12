@@ -1,0 +1,119 @@
+
+.navbar{
+    background-color: blanchedalmond;
+    justify-content: space-evenly;
+}
+.heading h1{
+    padding-left: 4rem;
+    font-size: 4rem;
+
+}
+.basket i{
+    padding-right: 5rem;
+    font-size: 2.1rem;
+    color: #0D6EFD
+}
+#owl-demo{
+    background-color: white;
+}
+#owl-demo .item{
+    margin: 3px;
+
+  }
+#owl-demo .item img{
+    display: block;
+    width: 50%;
+    height: auto;
+    padding-left: 5rem;
+  }
+.row{
+    flex-wrap: wrap;
+    padding-top: 5rem;
+    padding-right: 15%;
+}
+.btn{
+    width: 10rem;
+}
+.text th{
+    color: burlywood;
+    padding-right: 2rem;
+    font-size: 1.4rem;
+}
+ul li{
+    list-style: none;
+    flex-wrap: wrap;
+    padding-right: 2.2rem;
+    font-size: 1.3rem;
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.bodyclass{
+    color:black;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    
+}
+.left{
+    color: red;cursor: pointer;
+}
+.right{
+    color: green;cursor: pointer;
+}
+#first{
+    padding-left: 6%;
+}
+sup{
+    padding-left: 0.4rem;
+}
+.burger-menu{
+    display: none;
+    
+}
+
+@media only screen and (max-width: 391px) {
+    .navbar{
+        background-color: blanchedalmond;
+        display: flex;
+    }
+    .heading h1{
+        padding: 0.5rem;
+        font-size: 2.8rem;
+    
+    }
+    .list{
+        display: none;
+    }
+    .basket{
+
+    }
+    .basket i{
+        padding-right: 0%;
+        margin-left: 4rem;
+        font-size: 2.1rem;
+        color: #0D6EFD;
+        padding-left: 2rem;
+        margin-left: 2rem;
+    }
+    .burger-menu{
+        display: flex;
+        color: black;
+    }
+    #owl-demo{
+        background-color: white;
+        padding-top: 3rem;
+    }
+    #owl-demo .item{
+        padding-bottom: 2rem;
+        padding-left: 2rem;
+    
+      }
+    .container{
+        margin-left: 10rem;
+    }
+    #first{
+        padding-left: 3%;
+    }
+}
